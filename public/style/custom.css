@@ -1,0 +1,23 @@
+@import "node_modules/bootstrap/scss/bootstrap";
+
+.navbar-mainbg {
+  background-color: unset !important;
+}
+#navbarSupportedContent ul li a {
+    color: #ffffffbd !important;
+    }
+
+
+.navbar-mainbg {
+      padding: 12px !important;
+    }
+
+
+
+ @media (max-width: 600px) {
+  
+   
+        .image-container {
+          display: none !important;
+        }
+  }

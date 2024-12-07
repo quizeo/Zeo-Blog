@@ -1,0 +1,43 @@
+
+<%- include('partials/header') %>
+        <section class="section">
+          <main>
+            <div class="wrapper2">
+              <!-- Added WOW.js classes -->
+              <div
+                class="main_info wow animate__animated animate__fadeInLeft"
+                data-wow-delay="0.8s"
+                data-wow-duration="2045ms"
+              >
+                <h2>Read Our Blog</h2>
+                <p>
+                  Read our latest blog post and get updated with the latest
+                  trends in the industry
+                </p>
+              </div>
+
+              <div class="main_boxes">
+                <% blogData.forEach(blog => { %>
+                <section>
+                  <h2><%= blog.title %></h2>
+                  <p><%= blog.content %></p>
+                  <p>
+                    <small>By <%= blog.author %> on <%= blog.date %></small>
+                  </p>
+                  <a href="/blog-post/<%= blog.title %>"></a>
+                </section>
+                <% }); %>
+              </div>
+            </div>
+
+           <div class="copyright">
+            <p> ©Quizeo</p>
+          </div>
+          </main>
+        </section>
+
+        <!-- <section class="section gradient-blue">
+
+        </section> -->
+<%- include('partials/footer') %>
+      
