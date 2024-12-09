@@ -1,7 +1,7 @@
 # Zeo-Blog
  Zeo Blog is a sleek blogging platform built with HTML, CSS, JavaScript, jQuery, Express.js, and Node.js, offering a responsive design for reading and posting blogs.
  
-<strong style="font-weight:bold; display:block; width:100%;">https://quizeo.github.io/Simon-Game/</strong>
+<strong style="font-weight:bold; display:block; width:100%;">https://zeo-blog.onrender.com</strong>
 
 
 <div style=" disply:flex; justify-content: center; margin: 0 auto">
