@@ -10,7 +10,7 @@
  <img src="Bootstrap_logo.svg.png" alt="Description" width="80px" >
 <img src="JavaScript-Logo-2048x1280.png" alt="Description" width="130px" >
 <img src="jquery.png" alt="Description" width="80px" >
- <img src="noede_js.png" alt="Description" width="120px" >
+ <img src="node_js.png" alt="Description" width="120px" >
 </div>
 
 
